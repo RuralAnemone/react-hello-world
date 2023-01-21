@@ -1,0 +1,1 @@
+rename any file to `index.js` and run npm start

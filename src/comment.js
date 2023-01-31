@@ -13,14 +13,14 @@ function Avatar(props) {
     return (
         <div style={{
             "display": "flex",
-            "flex-direction": "row",
-            "align-items": "baseline",
+            "flexDirection": "row",
+            "alignItems": "baseline",
         }}>
             <img
                 src={props.user.avatarUrl}
                 alt={props.user.name}
                 style={{
-                    "border-radius": "100%",
+                    "borderRadius": "100%",
                     "width": 50,
                     "height": 50,
                 }}
